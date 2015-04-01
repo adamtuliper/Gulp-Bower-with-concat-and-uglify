@@ -1,0 +1,19 @@
+{
+  "name": "gulpCombine",
+  "version": "0.0.0",
+  "authors": [
+    "adamtuliper <adam.tuliper@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.3",
+    "angular": "~1.3.15"
+  }
+}
