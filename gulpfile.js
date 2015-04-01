@@ -29,11 +29,11 @@ gulp.task('default', function(){
 
     return gulp.src(mainFiles)
         .pipe(jsFilter)
-        .pipe(concat('third-party.js'))
+        .pipe(concat('concat-scripts.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./app'))
         .pipe(jsFilter.restore())
         .pipe(filterByExtension('css'))
-        .pipe(concat('third-party.css'))
+        .pipe(concat('concat-styles.css'))
         .pipe(gulp.dest('./app'));
 });
