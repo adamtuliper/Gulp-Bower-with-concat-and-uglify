@@ -8,7 +8,9 @@ Index.html uses a cool technique by having the following in it:
 This will automatically have the script tag injected into it from our gulp script. Cool indeed.
 
 To restore packages:
+
 npm install
+
 bower install
 
 Then you should be good to run grunt at the command line in the root folder, 
